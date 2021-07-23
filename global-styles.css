@@ -18,3 +18,9 @@ body {
   left: 0;
   z-index: 5;
 }
+
+h1 {
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+}
