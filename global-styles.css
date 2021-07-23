@@ -1,0 +1,20 @@
+body {
+  background-color: #050304;
+  font-family: sans-serif;
+  padding: 1rem;
+  color: #d5e5a2;
+}
+
+.posterText {
+  position: relative;
+  z-index: 10;
+}
+
+.poster {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+}
