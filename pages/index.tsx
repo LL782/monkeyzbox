@@ -4,7 +4,7 @@ import everythingPassesPoster from "../img/everythingPassesPoster.jpg";
 import Layout from "../components/Layout";
 
 const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
+  <Layout title="Monkeyzbox - Positive Vibrations">
     <div className="posterText">
       <h1>Monkeyzbox</h1>
       <p>You have to go away to come back...</p>
