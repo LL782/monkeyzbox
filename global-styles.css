@@ -1,12 +1,14 @@
 body {
   background-color: #050304;
   font-family: sans-serif;
-  padding: 1rem;
-  color: #d5e5a2;
+  padding: 0;
+  margin: 0;
 }
 
 .posterText {
   position: relative;
+  color: #fff;
+  padding: 2rem;
   z-index: 10;
 }
 
@@ -19,8 +21,27 @@ body {
   z-index: 5;
 }
 
-h1 {
+.poster > div {
+  display: block;
+}
+
+.poster > div::after {
+  content: "";
+  position: absolute;
+  right: -3px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(#fff, #fce60c, #fd9900, #fe5552, #fe4840);
+}
+
+.posterText h1 {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(#fff, #fce60c, #fd9900, #fe5552, #fe4840 0.9em);
+  background-clip: text;
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.25px;
+  line-height: 1;
+  margin: 0;
 }
