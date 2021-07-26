@@ -1,5 +1,5 @@
 body {
-  background-color: #050304;
+  background: #e44 linear-gradient(90deg, #030306, #030306, #0000 200px);
   font-family: sans-serif;
   padding: 0;
   margin: 0;
@@ -7,9 +7,22 @@ body {
 
 .posterText {
   position: relative;
-  color: #fff;
-  padding: 2rem;
+  padding: 5vh;
   z-index: 10;
+}
+
+.posterText__heading {
+  color: #fe4840;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+  line-height: 1;
+  margin: 0;
+}
+
+.posterText__body {
+  color: #ddd;
+  font-size: 0.875rem;
 }
 
 .poster {
@@ -17,31 +30,21 @@ body {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 100px;
   z-index: 5;
 }
 
 .poster > div {
-  display: block;
+  background-color: #000;
+  display: block !important;
 }
 
 .poster > div::after {
   content: "";
   position: absolute;
-  right: -3px;
+  right: 0;
   top: 0;
   bottom: 0;
   width: 3px;
-  background: linear-gradient(#fff, #fce60c, #fd9900, #fe5552, #fe4840);
-}
-
-.posterText h1 {
-  -webkit-text-fill-color: transparent;
-  background: linear-gradient(#fff, #fce60c, #fd9900, #fe5552, #fe4840 0.9em);
-  background-clip: text;
-  font-weight: normal;
-  text-transform: uppercase;
-  letter-spacing: 0.25px;
-  line-height: 1;
-  margin: 0;
+  background-color: #0006;
 }
