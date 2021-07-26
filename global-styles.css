@@ -1,8 +1,14 @@
 body {
-  background: #e44 linear-gradient(90deg, #030306, #030306, #0000 200px);
+  background: #000;
   font-family: sans-serif;
   padding: 0;
   margin: 0;
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    background: linear-gradient(90deg, #050505, #050505, #e44 200px);
+  }
 }
 
 .posterText {

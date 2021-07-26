@@ -14,8 +14,8 @@ const IndexPage = () => (
         src={everythingPassesPoster}
         alt="Artwork background with colourful flowers, hearts and faces on a black background"
         layout="fixed"
-        width={673}
-        height={1024.5}
+        width={1346 * 0.6}
+        height={2049 * 0.6}
       />
     </div>
   </Layout>
