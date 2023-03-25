@@ -1,12 +1,8 @@
 # Monkeyzbox
 
-Work is hardly even in progress 😂
-
-[www.monkeyzbox.com](https://www.monkeyzbox.com/)
+Holding page for [monkeyzbox.com](https://www.monkeyzbox.com/)
 
 
 ## Technical notes
 
-So I don't forget
-
-- **Hosted** on **Vercel**
+- **Hosted** on **[Vercel](https://vercel.com/dashboard)**
