@@ -7,7 +7,7 @@ const IndexPage = () => (
   <Layout title="Monkeyzbox - Positive Vibrations">
     <div className="posterText">
       <h1 className="posterText__heading">Monkeyzbox</h1>
-      <p className="posterText__body">You have to go away to come back...</p>
+      <p className="posterText__body">Sometimes you have to go away to come back...</p>
     </div>
     <div className="poster">
       <Image
