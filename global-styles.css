@@ -19,18 +19,26 @@ body {
   z-index: 10;
 }
 
+
+
 .posterText__heading {
   color: #fe4840;
+  font-size: 2.5rem;
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.25px;
   line-height: 1;
-  margin: 0;
+  margin: 0 0 0.5rem 0;
 }
 
 .posterText__body {
   color: #ddd;
-  font-size: 0.875rem;
+  font-size: .5rem;
+  letter-spacing: 0.25em;
+  left: 0.4em;
+  margin: 0;
+  position: relative;
+  text-transform: uppercase;
 }
 
 .poster {
