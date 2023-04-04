@@ -3,7 +3,7 @@ html {
 }
 @media screen and (min-width:900px) {
  html {
-  background-color: #ee4444
+  background: #ee4444 linear-gradient(90deg, #050505, #050505, #e44 200px);
  }
 }
 
